@@ -1,10 +1,10 @@
 services:
   - type: web
     name: cluster
-    branch: main
+    branch: master
     plan: free
     dockerfilePath: ./Dockerfile
-    repo: https://github.com/Nrgodara/TeraBoxDL
+    repo: https://github.com/mysterydemon/Botclusters
     env: docker
     envVars:
       - key: CLUSTER_01
