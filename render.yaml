@@ -1,7 +1,7 @@
 services:
   - type: web
     name: cluster
-    branch: master
+    branch: main
     plan: free
     dockerfilePath: ./Dockerfile
     repo: https://github.com/Nrgodara/TeraBoxDL
